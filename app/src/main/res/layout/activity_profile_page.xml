@@ -1,0 +1,179 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFF"
+    tools:context=".ProfilePage">
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="50dp"
+        android:layout_margin="15dp"
+        android:src="@drawable/arrowback" />
+
+    <ImageView
+        android:id="@+id/profileImage"
+        android:layout_width="137dp"
+        android:layout_height="111dp"
+        android:layout_margin="-25dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="-10dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/avatar" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Account"
+        android:layout_marginLeft="35dp"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit account"
+        android:layout_marginTop="-35dp"
+        android:layout_marginLeft="180dp"
+        android:textSize="15dp"
+        android:textStyle="bold"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="12dp"
+        android:orientation="horizontal"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Profile Information"
+        android:textColor="@color/black"
+        android:layout_marginLeft="35dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginRight="45dp"
+        android:layout_margin="12dp"
+        android:text="          Full Name"
+        android:textSize="12dp"
+        android:background="@drawable/input" />
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="-45dp"
+        android:textSize="12dp"
+        android:text="Elaiza Jane R. Moreno"
+
+        android:backgroundTint="@color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="          Email Address"
+        android:layout_margin="12dp"
+        android:textSize="12dp"
+        android:background="@drawable/input" />
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="-45dp"
+        android:textSize="12dp"
+        android:text="Elaizajanemoreno3@gmail.com"
+        android:backgroundTint="@color/black"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="          Password"
+        android:layout_margin="12dp"
+        android:textSize="12dp"
+        android:background="@drawable/input" />
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="-45dp"
+        android:textSize="12dp"
+        android:text="*******"
+        android:backgroundTint="@color/black"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Settings Information"
+        android:textColor="@color/black"
+        android:layout_margin="20dp"
+        android:textStyle="bold"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"/>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="25dp"
+        android:src="@drawable/setting"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="-33dp"
+        android:textSize="12dp"
+        android:text="Settings"
+        android:textStyle="bold"
+        android:backgroundTint="@color/black"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical"/>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="25dp"
+        android:src="@drawable/developers"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="-33dp"
+        android:textSize="12dp"
+        android:text="Developer Page"
+        android:textStyle="bold"
+        android:backgroundTint="@color/black"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/button_logout"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginHorizontal="35dp"
+        android:background="@drawable/border1"
+        android:text="Logout"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="15sp"/>
+</LinearLayout>

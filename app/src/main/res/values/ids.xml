@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="paymentItem" type="id" />
+    <item name="languageItem" type="id" />
+    <item name="helpItem" type="id" />
+    <item name="developersItem" type="id" />
+    <item name="logoutItem" type="id" />
+    <item name="account" type="id" />
+    <item name="notifications" type="id" />
+    <item name="privacy" type="id" />
+    <item name="payment" type="id" />
+    <item name="language" type="id" />
+    <item name="help" type="id" />
+    <item name="aboutDevelopers" type="id" />
+    <item name="logout" type="id" />
+</resources>

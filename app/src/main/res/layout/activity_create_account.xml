@@ -43,6 +43,7 @@
         android:layout_marginTop="20dp"/>
 
     <EditText
+        android:id="@+id/fullNameInput"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:hint="Please type your name"
@@ -59,6 +60,7 @@
         android:layout_marginTop="16dp"/>
 
     <EditText
+        android:id="@+id/emailInput"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:hint="Type your email address"
@@ -76,6 +78,7 @@
         android:layout_marginTop="16dp"/>
 
     <EditText
+        android:id="@+id/passwordInput"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:hint="Type your password"
@@ -102,6 +105,7 @@
         android:layout_marginTop="16dp"/>
 
     <EditText
+        android:id="@+id/confirmPasswordInput"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:hint="Repeat your password"
@@ -120,6 +124,7 @@
         android:paddingLeft="4dp"/>
 
     <Button
+        android:id= "@+id/SignUp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Sign Up"
@@ -129,6 +134,7 @@
         android:padding="12dp" />
 
     <TextView
+        android:id="@+id/signInText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Already have an account? Sign in"

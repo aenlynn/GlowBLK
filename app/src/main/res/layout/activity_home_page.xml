@@ -1,0 +1,191 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/brandView"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="0mm"
+            android:layout_marginRight="16dp"
+            android:src="@drawable/logoo" />
+
+        <EditText
+            android:id="@+id/searchEditText"
+            android:layout_width="355dp"
+            android:layout_height="59dp"
+            android:layout_marginTop="0mm"
+            android:background="@drawable/bborder"
+            android:hint=" Search for lipstick"
+            android:inputType="text"
+            android:paddingStart="40dp"
+            android:paddingEnd="48dp"
+            android:singleLine="true"
+            android:textColor="#000000"
+            android:textColorHint="#888888" />
+
+        <ImageView
+            android:id="@+id/searchIcon"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="-50dp"
+            android:layout_marginTop="0mm"
+            android:clickable="true"
+            android:contentDescription="Search"
+            android:focusable="true"
+            android:src="@drawable/categories" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/productImageView"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:contentDescription="Product Image"
+        android:scaleType="centerCrop" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/offerTitleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="Glow Now, Pay Less  -"
+            android:textColor="#000000"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/offerSubtitleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="Up to 50% Off!"
+            android:textColor="#000000"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/shopNowButton"
+            android:layout_width="149dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border"
+            android:text="Shop now"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/bottomImageView"
+        android:layout_width="500dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="120dp"
+        android:background="#FCE5EC"
+        android:contentDescription="Bottom Image"
+        android:scaleType="centerCrop" />
+
+    <ImageView
+        android:id="@+id/homeIcon"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="-131dp"
+        android:backgroundTint="#E50046"
+        android:contentDescription="Home"
+        android:src="@drawable/home" />
+    <TextView
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="45dp"
+        android:textSize="12dp"
+        android:textColor="#E50046"
+        android:text="Home"/>
+    <ImageView
+        android:id="@+id/categoriesIcon"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="-75dp"
+        android:backgroundTint="#E50046"
+        android:contentDescription="Categories"
+        android:src="@drawable/categories" />
+    <TextView
+        android:layout_width="62dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="105dp"
+        android:textSize="12dp"
+        android:textColor="#E50046"
+        android:text="Categories"/>
+
+    <ImageView
+        android:id="@+id/bagIcon"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="-81dp"
+        android:backgroundTint="#E50046"
+        android:contentDescription="Categories"
+        android:src="@drawable/bag" />
+
+    <TextView
+        android:layout_width="34dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="200dp"
+        android:text="Bag"
+        android:textColor="#E50046"
+        android:textSize="12dp"/>
+
+
+    <ImageView
+        android:id="@+id/heartIcon"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="-61dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginRight="24dp"
+        android:backgroundTint="#E50046"
+        android:contentDescription="Heart"
+        android:src="@drawable/heart" />
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="265dp"
+        android:text="Heart"
+        android:textColor="#E50046"
+        android:textSize="12dp"/>
+
+
+
+    <ImageView
+        android:id="@+id/profileIcon"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="-60dp"
+        android:contentDescription="Profile"
+        android:layout_marginLeft="320dp"
+        android:layout_marginRight="24dp"
+        android:background="@drawable/border"
+        android:src="@drawable/person" />
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="333dp"
+        android:text="Profile"
+        android:textColor="#E50046"
+        android:textSize="12dp"/>
+
+</LinearLayout>
